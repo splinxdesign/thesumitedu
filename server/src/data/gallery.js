@@ -1,0 +1,97 @@
+export const GALLERY_FILTERS = [
+  'All',
+  'National Celebration',
+  'Awareness Campaign',
+  'Academic Recognition',
+  'Educational Visit',
+  'Technology Exposure',
+  'Religious / Cultural Event',
+];
+
+export const galleryEvents = [
+  {
+    key: '12-rabi-ul-awal-celebrations',
+    title: '12 Rabi ul Awal Celebrations',
+    description:
+      'Students celebrating the birth anniversary of Prophet Muhammad (PBUH) with enthusiasm and devotion.',
+    dateLabel: 'Annual Event',
+    category: 'Religious / Cultural Event',
+    image: '/assets/gallery/12-rabi-ul-awal-celebrations.jpeg',
+    alt: 'Students at THE SUMIT participating in 12 Rabi ul Awal celebrations',
+    order: 1,
+  },
+  {
+    key: '14th-august-celebrations',
+    title: '14th August Celebrations',
+    description:
+      'Independence Day celebrations with patriotic spirit and national flag hoisting ceremony.',
+    dateLabel: 'Annual Event',
+    category: 'National Celebration',
+    image: '/assets/gallery/14th-august-celebrations.jpeg',
+    alt: 'Students and staff at THE SUMIT celebrating 14th August Independence Day',
+    order: 2,
+  },
+  {
+    key: '23rd-march-celebration-2023',
+    title: '23rd March Celebration 2023',
+    description: 'Pakistan Day celebrations commemorating the Lahore Resolution with cultural programs.',
+    dateLabel: 'March 2023',
+    category: 'National Celebration',
+    image: '/assets/gallery/23rd-march-celebration-2023.jpeg',
+    alt: 'Students at THE SUMIT celebrating Pakistan Day 2023',
+    order: 3,
+  },
+  {
+    key: 'anti-corruption-day-2022',
+    title: 'Anti-Corruption Day 2022',
+    description: 'Awareness campaign against corruption with students taking pledge for transparency.',
+    dateLabel: 'December 2022',
+    category: 'Awareness Campaign',
+    image: '/assets/gallery/anti-corruption-day-2022.jpeg',
+    alt: 'Students at THE SUMIT participating in Anti-Corruption Day 2022 awareness activity',
+    order: 4,
+  },
+  {
+    key: 'anti-smoke-cycle-rally-2022',
+    title: 'Anti-Smoke Cycle Rally 2022',
+    description:
+      'Students participating in cycle rally for clean air and anti-smoking awareness in Karachi.',
+    dateLabel: '2022',
+    category: 'Awareness Campaign',
+    image: '/assets/gallery/anti-smoke-cycle-rally-2022.jpeg',
+    alt: 'Students from THE SUMIT participating in an anti-smoke cycle rally in Karachi',
+    order: 5,
+  },
+  {
+    key: 'merit-position-award-ceremony',
+    title: 'Merit Position Award Ceremony',
+    description: 'Honoring top performers who secured merit positions in SBTE Board examinations.',
+    dateLabel: 'Annual Event',
+    category: 'Academic Recognition',
+    image: '/assets/gallery/merit-position-award-ceremony.jpeg',
+    alt: 'Merit position award ceremony at THE SUMIT',
+    order: 6,
+  },
+  {
+    key: 'book-fair-expo-centre-2023',
+    title: 'Book Fair Expo Centre 2023',
+    description:
+      'Students visiting the annual Book Fair at Karachi Expo Centre for educational resources.',
+    dateLabel: '2023',
+    category: 'Educational Visit',
+    image: '/assets/gallery/book-fair-expo-centre-2023.jpeg',
+    alt: 'Students from THE SUMIT visiting the Book Fair at Karachi Expo Centre in 2023',
+    order: 7,
+  },
+  {
+    key: 'itcn-asia-exhibition-2023',
+    title: 'ITCN ASIA Exhibition 2023',
+    description:
+      "Students exploring the latest technology at ITCN ASIA, Pakistan's largest IT exhibition.",
+    dateLabel: '2023',
+    category: 'Technology Exposure',
+    image: '/assets/gallery/itcn-asia-exhibition-2023.jpeg',
+    alt: 'Students from THE SUMIT visiting ITCN ASIA Exhibition 2023',
+    order: 8,
+  },
+];
