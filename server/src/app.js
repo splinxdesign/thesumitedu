@@ -3,7 +3,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import routes from './routes/index.js';
-import { notFound, errorHandler } from './middleware/error.js';
+import { ApiError, notFound, errorHandler } from './middleware/error.js';
 
 export function createApp() {
   const app = express();
@@ -24,7 +24,7 @@ export function createApp() {
       origin(origin, callback) {
         // No Origin header: curl, server-to-server, same-origin production build.
         if (!origin || allowedOrigins.includes(origin)) return callback(null, true);
-        callback(new Error(`Origin ${origin} is not allowed by CORS`));
+        callback(new ApiError(403, `Origin ${origin} is not allowed by CORS`));
       },
     }),
   );
